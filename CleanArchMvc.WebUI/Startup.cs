@@ -44,6 +44,8 @@ namespace CleanArchMvc.WebUI
 
             app.UseRouting();
 
+            // apenas um teste entre o git e vs
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
